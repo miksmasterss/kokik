@@ -1,0 +1,71 @@
+body {    
+color:#0f141e ;
+font-size: 16px ;
+ font-weight: normal;
+ font-family: 'Roboto', sans-serif; @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+}
+a{
+    color: #0f141e;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;}
+    a:active {color:rgb(0, 26, 255);}
+a:visited {color: #464c4d;}
+.kotik {
+    margin: auto;
+    width: 1000;
+    border-radius: 11%;
+    box-shadow: 0.23cm 0.23cm 1cm royalblue;
+}
+.info p {
+    color: #464c4d;
+    
+    font-style: italic;
+    font-weight: bolder;
+    text-decoration: none;
+    text-transform: uppercase; 
+}
+.tabl {
+   flex-direction: row; font-size: small; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.conteiner {max-width: 750px;}
+.lider {
+    margin-bottom:15px 20px color #090909 ;
+    padding: 10px ;
+     max-width: 1000px; 
+    max-width: 100;
+margin:10px 10px ; 
+background-color: #72c252; ;
+border: 10px 10px rgb(0, 0, 0);
+border-right-color: aqua;
+
+}
+.bablgam{width: 100% ;}
+.bablgam td:nth-child(1)
+{color: #5283c2;}
+.bablgam td:nth-child(3)
+{color: #5283c2;}
+.bablgam td:nth-child(2)
+{color: #5283c2;}
+.listic {
+    list-style: none;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #52c29d;
+
+}
+.lil {
+    width: 100%;
+    background-color: lightcoral;
+    position: fixed;
+    bottom: 5px;
+    height: 5px;
+    right: 5px;
+    border-radius: 50%;
+    top: 0px;
+    left: 0px;
+}
+.nad {right:700px ;}
